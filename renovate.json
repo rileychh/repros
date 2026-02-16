@@ -4,6 +4,9 @@
     "config:best-practices",
     ":maintainLockFilesDisabled"
   ],
+  "constraints": {
+    "flutter": "3.38.9"
+  },
   "packageRules": [
     {
       "matchManagers": ["pub"],
