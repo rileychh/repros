@@ -1,0 +1,21 @@
+name: renovate_test
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: ^3.9.0
+  flutter: '>=3.38.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
